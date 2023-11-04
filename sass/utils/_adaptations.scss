@@ -46,8 +46,6 @@
     padding: 40px 0;
     padding-top: 150px;
   }
-  .page-one-box {
-  }
   .page-one-text {
     h1 {
       font-size: 28px;
@@ -61,6 +59,9 @@
     }
   }
   .page-one-img {
+    iframe {
+      display: none;
+    }
     img {
       width: 345px;
       height: 300px;
@@ -70,10 +71,6 @@
   // !          Page two
   .page-two {
     padding: 40px 0;
-  }
-  .container {
-  }
-  .page-two-box {
   }
   .page-two-img {
     width: 345px;
@@ -101,10 +98,6 @@
   .page-three {
     padding: 40px 0;
   }
-  .container {
-  }
-  .page-three-box {
-  }
   .page-three-text {
     h2 {
       font-size: 38px;
@@ -131,19 +124,9 @@
       font-style: normal;
     }
   }
-  .page-three-button {
-  }
 
   // !      Page four
 
-  .page-three {
-  }
-  .four {
-  }
-  .container {
-  }
-  .page-three-box {
-  }
   .page-three-text {
     h3 {
       font-size: 38px;
@@ -152,19 +135,10 @@
       font-style: normal;
     }
   }
-  .page-three-card-box {
-  }
-  .card {
-  }
 
   // !      Page five
 
-  .page-five {
-  }
-  .container {
-  }
-  .page-five-box {
-  }
+  
   .page-five-text {
     p {
       font-size: 20px;
@@ -172,8 +146,6 @@
       line-height: 140%;
       font-style: normal;
     }
-  }
-  .page-five-logo {
   }
   .logo-card {
     width: 100px;
@@ -186,10 +158,6 @@
 
   .page-six {
     padding: 40px;
-  }
-  .container {
-  }
-  .page-six-box {
   }
   .page-six-text {
     h2 {
@@ -218,10 +186,6 @@
 
   // !      Page seven
 
-  .page-seven {
-  }
-  .container {
-  }
   .page-seven-box {
     align-items: center;
     padding: 40px 20px;
@@ -234,12 +198,6 @@
 
   // !      Page footer
 
-  .page-footer {
-  }
-  .footer-containerr {
-  }
-  .page-footer-box {
-  }
   .box-name {
     justify-content: center;
   }
@@ -268,8 +226,6 @@
   .box-adress {
     display: none;
   }
-  .box-footer-logo {
-  }
   .span {
     span {
       font-size: 12px;
@@ -277,31 +233,21 @@
       line-height: 110%;
     }
   }
-  .img {
-  }
 
 
 
-
-  .page-form {
-  }
-  .container {
-  }
   .page-form-box {
     width: 600px;
     height: 400px;
     gap: 15px;
-  }
-  .box-title {
-  }
-  .box-input {
-  }
-  .text-input {
   }
   .box-servis {
     span {
       font-size: 14px;
       font-weight: 400;
     }
+  }
+  iframe {
+    display: none;
   }
 }

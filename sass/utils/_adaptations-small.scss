@@ -66,6 +66,9 @@
     }
   }
   .page-one-img {
+    iframe {
+      display: none;
+    }
     img {
       width: 100%;
       height: 100%;

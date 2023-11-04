@@ -1092,6 +1092,9 @@ figure:active {
   .page-one-text a {
     font-size: 14px;
   }
+  .page-one-img iframe {
+    display: none;
+  }
   .page-one-img img {
     width: 345px;
     height: 300px;
@@ -1254,8 +1257,11 @@ figure:active {
     font-size: 14px;
     font-weight: 400;
   }
+  iframe {
+    display: none;
+  }
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 490px) {
   .containerr,
   .container,
   .footer-containerr {
@@ -1319,6 +1325,9 @@ figure:active {
   }
   .page-one-text span {
     text-align: center;
+  }
+  .page-one-img iframe {
+    display: none;
   }
   .page-one-img img {
     width: 100%;
