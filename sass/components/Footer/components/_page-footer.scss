@@ -1,0 +1,79 @@
+.page-footer {
+    background-color: var(--bg-footer);
+    padding: 45px 0;
+}
+.footer-containerr {
+    width: 1150px;
+    margin: 0 auto;
+}
+.page-footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 45px;
+}
+.box-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    span {
+        @include h5;
+        color: var(--text-color);
+        font-weight: 400;
+    }
+}
+.box-page {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.box-page-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 200px;
+    gap: 15px;
+    span {
+        @include nav-text;
+        color: var(--text-color);
+    }
+    p {
+        color: var(--text-color);
+
+    }
+}
+.box-adress {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    span {
+        @include nav-text;
+        color: var(--text-color);
+
+    }
+    p {
+        color: var(--text-color);
+
+    }
+}
+.box-footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.span {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 15px;
+    span {
+        color: var(--text-color);
+        @include nav-text;
+    }
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--font-color);
+}
+body {
+  //   background: linear-gradient(286deg, #022335 3.63%, #043a41 90.98%);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.6px;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+a,
+input {
+  text-decoration: none; /* Убирает подчеркивание по умолчанию */
+  cursor: pointer;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+@mixin nav-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.2px; /* 101.25% */
+}
+
+@mixin body-text {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.6px;
+}
+
+@mixin h1 {
+  font-family: "Roboto";
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.8px;
+}
+
+@mixin h2 {
+  font-family: "Roboto";
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 101.053% */
+}
+
+@mixin h2Small {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57.6px; /* 99.31% */
+}
+
+@mixin h3 {
+  font-family: Roboto;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.8px; /* 121.304% */
+}
+
+@mixin h5 {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+}
+
+@mixin button {
+  //   color: #fff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.2px;
+  border-radius: 100px;
+}

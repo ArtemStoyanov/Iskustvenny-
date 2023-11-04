@@ -1,0 +1,307 @@
+@media only screen and (max-width: 835px) {
+  nav {
+    padding: 0 10px;
+  }
+  .containerr,
+  .container,
+  .footer-containerr {
+    width: 690px;
+  }
+
+  .logo {
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .login {
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 140%;
+      font-style: normal;
+      height: 30px;
+      width: 60px;
+    }
+  }
+
+  .export {
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 140%;
+      font-style: normal;
+      height: 30px;
+      width: 150px;
+    }
+  }
+  .menu {
+    ul {
+      display: none;
+    }
+  }
+  //   !         Page one
+  .page-one {
+    padding: 40px 0;
+    padding-top: 150px;
+  }
+  .page-one-box {
+  }
+  .page-one-text {
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+    span,
+    a {
+      font-size: 14px;
+    }
+  }
+  .page-one-img {
+    img {
+      width: 345px;
+      height: 300px;
+    }
+  }
+
+  // !          Page two
+  .page-two {
+    padding: 40px 0;
+  }
+  .container {
+  }
+  .page-two-box {
+  }
+  .page-two-img {
+    width: 345px;
+    img {
+      width: 100%;
+    }
+  }
+  .page-two-text {
+    width: 345px;
+    h2 {
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      width: 100%;
+    }
+  }
+
+  // !      Page three
+
+  .page-three {
+    padding: 40px 0;
+  }
+  .container {
+  }
+  .page-three-box {
+  }
+  .page-three-text {
+    h2 {
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 120%;
+    }
+  }
+  .page-three-card-box {
+    justify-content: space-between;
+    gap: 45px;
+    padding-top: 40px;
+  }
+  .card {
+    h5 {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 140%;
+      height: 80px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      font-style: normal;
+    }
+  }
+  .page-three-button {
+  }
+
+  // !      Page four
+
+  .page-three {
+  }
+  .four {
+  }
+  .container {
+  }
+  .page-three-box {
+  }
+  .page-three-text {
+    h3 {
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 120%;
+      font-style: normal;
+    }
+  }
+  .page-three-card-box {
+  }
+  .card {
+  }
+
+  // !      Page five
+
+  .page-five {
+  }
+  .container {
+  }
+  .page-five-box {
+  }
+  .page-five-text {
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 140%;
+      font-style: normal;
+    }
+  }
+  .page-five-logo {
+  }
+  .logo-card {
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+
+  // !      Page six
+
+  .page-six {
+    padding: 40px;
+  }
+  .container {
+  }
+  .page-six-box {
+  }
+  .page-six-text {
+    h2 {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 140%;
+      font-style: normal;
+    }
+    p,
+    a {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      font-style: normal;
+    }
+
+    flex: 1 0 0;
+  }
+  .page-six-img {
+    flex: 1 0 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  // !      Page seven
+
+  .page-seven {
+  }
+  .container {
+  }
+  .page-seven-box {
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .box-title {
+    p {
+      @include body-text;
+    }
+  }
+
+  // !      Page footer
+
+  .page-footer {
+  }
+  .footer-containerr {
+  }
+  .page-footer-box {
+  }
+  .box-name {
+    justify-content: center;
+  }
+  .box-page {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .box-page-text {
+    &:nth-child(n + 4) {
+      display: none;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 140%;
+      font-style: normal;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140%;
+      font-style: normal;
+    }
+  }
+  .box-adress {
+    display: none;
+  }
+  .box-footer-logo {
+  }
+  .span {
+    span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 110%;
+    }
+  }
+  .img {
+  }
+
+
+
+
+  .page-form {
+  }
+  .container {
+  }
+  .page-form-box {
+    width: 600px;
+    height: 400px;
+    gap: 15px;
+  }
+  .box-title {
+  }
+  .box-input {
+  }
+  .text-input {
+  }
+  .box-servis {
+    span {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

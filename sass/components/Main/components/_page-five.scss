@@ -1,0 +1,34 @@
+.page-five {
+    padding: 70px 0;
+    position: sticky;
+
+}
+.container {
+}
+.page-five-box {
+    display: flex;
+
+}
+.page-five-text {
+    p {
+        width: 236px;
+        @include h5;
+        margin-top: 90px;
+    }
+    display: flex;
+    flex: 1 0 0;
+}
+.page-five-logo {
+    flex: 2 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 33px;
+}
+.logo-card {
+    width: 190px;
+    &:hover {
+        scale: 1.2;
+        transition: all ease 0.5s;
+    }
+}

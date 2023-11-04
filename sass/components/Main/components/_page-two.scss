@@ -1,0 +1,50 @@
+.page-two {
+    padding: 100px 0;
+    position: sticky;
+
+}
+.container {
+}
+.page-two-box {
+    display: flex;
+}
+.page-two-img {
+    width: 50%;
+    img {
+        width: 483px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    position: relative;
+    &::before {
+        content: "2";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -220px;
+        right: -35px;
+        font-size: 68px;
+        font-weight: 700;
+        border: 2px dashed black
+    }
+}
+.page-two-text {
+    width: 50%;
+    h2 {
+        @include h2;
+        width: 443px;
+    }
+    p {
+        @include body-text;
+        width: 515px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
