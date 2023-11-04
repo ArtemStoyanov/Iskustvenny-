@@ -1272,7 +1272,7 @@ figure:active {
   }
   .containerr::before {
     content: "";
-    background-image: url(../../assets/icons/burger-menu.svg);
+    background-image: url(../assets/icons/burger-menu.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 25px;
